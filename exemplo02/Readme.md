@@ -99,10 +99,9 @@ ferrari = Carro('Ferrari testarossa', 100)
 print(ferrari)
 ```
 
-
 ### Executando [exemplo](app-exemplo02.py) que está nesse diretório
 
 
-```
-python3 app-exemplo02.py Em Python
+```bash
+python3 app-exemplo02.py
 ```
