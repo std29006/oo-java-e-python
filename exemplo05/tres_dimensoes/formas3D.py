@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# O diretório 'tres_dimensoes' é um módulo (diretório que obrigatoriamente possui um arquivo __init__.py vazio)
-# Dentro de um módulo é possível existir diversos scripts .py
+# O diretório 'tres_dimensoes' é um pacotes regular (diretório que obrigatoriamente possui um arquivo __init__.py)
 
 from duas_dimensoes.retangulo import Retangulo
 

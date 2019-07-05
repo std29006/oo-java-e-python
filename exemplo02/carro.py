@@ -11,7 +11,17 @@ Convenção Python PEP8 - https://www.python.org/dev/peps/pep-0008/
 
     - NomeDeClasses devem seguir esse formato (chamado de CamelCase)
 
-    - nome_de_métodos devem ser em minúsculo e palavras separadas por underscore
+    - nome_de_métodos_de_classes devem ser em minúsculo e palavras separadas por underscore
+
+    - módulo é um arquivo que contém instruções Python. O nome do arquivo é igual o nome do módulo
+      acrescido da extensão .py
+      - Este arquivo tem o nome carro.py, então o nome do módulo é: carro. Esse módulo carro é
+      importado no arquivo app-exemplo.py
+
+    - modulos devem possuir nome curtos, sempre em minúsculo e underscore pode ser usado se isso 
+      tornar mais fácil sua leitura
+
+    
 '''
 
 

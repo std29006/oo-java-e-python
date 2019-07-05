@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 '''
-Os diretórios 'duas_dimensoes' e 'tres_dimensoes' são módulos (diretório que obrigatoriamente possui um arquivo __init__.py vazio)
+Os diretórios 'duas_dimensoes' e 'tres_dimensoes' são pacotes regulares (diretório que obrigatoriamente possui um arquivo __init__.py vazio)
 Dentro de um módulo é possível existir diversos scripts .py
 
-Veja mais em  https://docs.python.org/3/tutorial/modules.html
+Veja mais em  https://docs.python.org/3/reference/import.html#packages
 
 '''
 

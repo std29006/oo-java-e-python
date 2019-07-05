@@ -5,8 +5,8 @@ from datetime import date
 from pessoa import Pessoa
 from professor import Professor
 
-# Dentro um script .py é possível declarar diversos métodos e também diversas classes
-# Para importar todas classes e métodos do script cachorros.py basta:
+# Dentro um script .py é possível declarar diversas funções e também diversas classes
+# Para importar todas classes e funções do script cachorros.py basta fazer:
 from cachorros import *
 
 # Porém, a convenção Python PEP8 sugere fazer explicitamente, como está abaixo:
@@ -23,10 +23,7 @@ if __name__ == '__main__':
     print("------------")
 
     # Convenção Python PEP8
-    # NomeDeClasses devem seguir esse formato (chamado de CamelCase)
     # nome_de_objetos por outro lado deve ser sempre em minúsculo e com palavras separadas por sublinha
-    # modulos_que_possuem classes também devem ser em minúsculo e com palavras separadas por sublinha
-
     outra_pessoa = Pessoa("Joana", date(2000, 10, 1))
     print(outra_pessoa)
 

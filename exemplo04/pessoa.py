@@ -8,7 +8,7 @@ class Pessoa(object):
 
     def __init__(self, nome, dNasc = None):
         """"Construtor da classe.
-        O parâmetro dNasc, se não for fornecido durante o instancionamento do objeto, receberá None
+        O parâmetro dNasc receberá o valor None se não for fornecido qualquer valor ao instanciar o objeto
         Em Java seria necessário criar 2 construtores. Um com um parâmetro (nome) e outro com dois parâmetros (nome, dNasc)
         """
         self.nome = nome

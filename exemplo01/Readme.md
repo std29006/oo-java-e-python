@@ -62,7 +62,7 @@ if __name__ == '__main__':
             print("argumento[{}]: {}".format(contador, argumento))
             contador = contador + 1
     
-    # invocando um método do script atual        
+    # invocando uma função do script atual        
     hello_world()
 ```
 
@@ -73,6 +73,6 @@ if __name__ == '__main__':
 #### Executando
 
 
-```
+```shell
 python3 app-exemplo01.py Em Python
 ```

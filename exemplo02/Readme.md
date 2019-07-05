@@ -52,7 +52,7 @@ public class Carro{
 }
 ```
 
-### Instânciando objeto da classe Carro em Java
+### Criando uma instância da classe Carro em Java
 
 ```java
 Carro fusca = new Carro();
@@ -89,7 +89,7 @@ class Carro:
         return "Modelo: {}, velocidade: {}".format(self.modelo, self._velocidade)
 ```
 
-### Instânciando objeto da classe Carro em Python
+### Criando uma instância da classe Carro em Python
 
 ```python
 fusca = Carro()

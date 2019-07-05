@@ -6,7 +6,7 @@ from abc import ABC, abstractmethod
 
 class FormaGeometrica(ABC):
     """
-    Essa é uma classe abstrata e com um único método abstrato e um método concreto
+    Essa é uma classe abstrata com um único método abstrato e com um método concreto
     """
     def __init__(self, x, y):
         self.x = x

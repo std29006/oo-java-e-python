@@ -3,6 +3,10 @@
 
 import sys
 
+# Convenção Python PEP8 - https://www.python.org/dev/peps/pep-0008/
+# nome_de_funções devem ser em minúsculo e palavras separadas por underscore
+
+# declarando uma função chamada hello_world
 def hello_world():
     print("Hello World")
 
@@ -15,5 +19,5 @@ if __name__ == '__main__':
             print("argumento[{}]: {}".format(contador, argumento))
             contador = contador + 1
 
-    # invocando um método do script atual
+    # invocando uma função do script atual
     hello_world()

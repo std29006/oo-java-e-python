@@ -3,9 +3,13 @@
 
 '''
 
-Exemplo sobre trabalhar com tratamento de exeções.
+Exemplo sobre tratamento de exceções.
 
-No primeiro teste forneça 2 números inteiros. No segundo teste forneça uma letra para um ou para os dois operandos
+Execute o script e:
+
+- No primeiro teste forneça 2 números inteiros. 
+
+- No segundo teste forneça uma letra para um ou para os dois operandos
 
 '''
 

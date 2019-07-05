@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Dentro um script .py é possível declarar diversos métodos e também diversas classes
+# Dentro um script .py é possível declarar diversas funções e também diversas classes
 
 
 class Cachorro(object):
@@ -15,7 +15,7 @@ class Cachorro(object):
         self.truques = [] # iniciando um atributo da instância, no caso, uma lista vazia
 
     def sentar(self):
-        """"Simulando cachorro sentando"""
+        """"Esse método é para informar que o cachorro sentou"""
         print(self.nome + " foi sentar")
 
     def adicionarTruques(self, truque):
@@ -37,6 +37,6 @@ class CaoPolicial(Cachorro):
         print(self.nome + " está farejando")
 
 
-def metodoDoScript():
-    print("Esse método é do script .py e não pertecente a qualquer classe")
-    print("é possível usar esse método se o atual script for importado dessa forma: from cachorros import *")
+def funcaoDoScript():
+    print("Essa função é do script .py e não pertence a qualquer classe")
+    print("é possível usar essa função se o atual script for importado dessa forma: from cachorros import *")
